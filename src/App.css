@@ -1,0 +1,36 @@
+/* Center the content vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #94b6e7; /* Set your desired background color */
+    margin: 0;
+  }
+  
+  /* Style the container with a box shadow */
+  .card-container {
+    text-align: center;
+    background-color: #fff; /* Set your desired container background color */
+    padding: 30px; /* Increase padding for a larger card */
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Set shadow properties */
+    max-width: 500px; /* Increase the maximum width for the card */
+    margin: 0 auto; /* Center the card horizontally */
+  }
+  
+  /* Style the button */
+  button {
+    background-color: #0077cc; /* Set your desired button background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #005599; /* Change color on hover */
+  }
